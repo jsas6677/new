@@ -1,5 +1,5 @@
 {
-  "name": "1sub",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "Our first submission",
   "author": "Joshua & Yosi",
@@ -11,7 +11,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
+    "vue-particles": "^1.0.9",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -69,5 +72,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsas6677/new.git"
+  },
+  "keywords": [
+    "new"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsas6677/new/issues"
+  },
+  "homepage": "https://github.com/jsas6677/new#readme"
 }
